@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Hello from "./Hello";
+import Hello from "./hello";
 import "./style.css";
 
 const styles = {
@@ -9,10 +9,10 @@ const styles = {
 };
 
 function handleForm(event) {
-  event.preventDefault(); // stops form from "refreshing" automatically - it follows action, hence the refresh
-  alert(`Hello ${event.target.name.value} ${event.target.surname.value}`); // show a simple dialog box with the values
-  event.target.name.value = ""; // flushes the name value
-  event.target.surname.value = ""; // flushes the surname value
+  event.preventDefault();
+  alert(`Hello ${event.target.name.value} ${event.target.surname.value}`); 
+  event.target.name.value = ""; 
+  event.target.surname.value = "";
 }
 
 const App = () => (
