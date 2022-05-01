@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "HTML5  form required",
   "keywords": [],
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "react-dom": "16.0.0",
     "react": "16.0.0"
