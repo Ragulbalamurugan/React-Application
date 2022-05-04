@@ -13,6 +13,8 @@ function handleForm(event) {
   alert(`Hello ${event.target.name.value} ${event.target.surname.value}`); 
   event.target.name.value = ""; 
   event.target.surname.value = "";
+  event.target.email.value = "";
+  event.target.password.value = "";
 }
 
 const App = () => (
