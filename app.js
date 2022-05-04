@@ -25,6 +25,9 @@ const App = () => (
       <br />
       <label htmlFor="surname">Surname:</label>
       <input type="text" name="surname" required />
+       <br />
+      <label htmlFor="email">email:</label>
+      <input type="email" name="email" required />
       <br />
       <label htmlFor="password">password:</label>
       <input type="password" name="password" required/>
